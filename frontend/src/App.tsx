@@ -4,7 +4,7 @@ import './App.css';
 import {Greet} from "../wailsjs/go/main/App";
 import { Add } from '../wailsjs/go/main/App';
 import useAutoUpdate from './useAutoUpdate';
-import UpdateButton from './UpdateButton';
+// import UpdateButton from './UpdateButton';
 
 function App() {
     const [resultText, setResultText] = useState("Please enter your name below 👇");

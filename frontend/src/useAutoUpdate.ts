@@ -8,7 +8,7 @@ const useAutoUpdate = () => {
                 if (result) {
                     alert(result);
                 } else {
-                    console.log('No updates available.');
+                    alert('No updates available.');
                 }
             } catch (error) {
                 console.error('Error checking for updates:', error);
